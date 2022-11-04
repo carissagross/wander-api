@@ -33,7 +33,7 @@ app.locals.hikes = [
     {id: '24', name: 'Snowmass, Haystack and Capitol Lake Loop', location: 'Aspen, CO', difficulty: 'Hard', distance: '40.3', image: ''},
     {id: '25', name: 'Helms Lake', location: 'Grant, CO', difficulty: 'Moderate', distance: '11.8', image: ''},
     {id: '26', name: 'Turkey Trot', location: 'Morrison, CO', dificulty: 'Moderate', distance: '3.2', image: ''},
-    {id: '27', name: 'Chasm Lake', location: 'Estes Park, CO', difficulty: 'Hard', distance: '8.8', image: ''},
+    {id: '27', name: 'Deluge Lake', location: 'Vail, CO', difficulty: 'Hard', distance: '9', image: ''},
     {id: '28', name: 'Snowmass Lake', location: 'Aspen, CO', diffculty: 'Hard', distance: '8.3', image: ''},
     {id: '29', name: 'Blue Lakes', location: 'Ridgeway, CO', difficulty: 'Hard', distance: '8.7', image: ''},
     {id: '30', name: 'Mayflower Gulch', location: 'Frisco, CO', difficulty: 'Moderate', distance: '4', image: }
