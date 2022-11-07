@@ -185,7 +185,7 @@ app.locals.hikes = [
         distance: '9',
         elevation: '2,601',
         description: 'A fantastic loop with two passes, several lakes, and wonderful vistas of the Sawatch and Holy Cross Wilderness.  Be sure the weather is clear before making your way to Fancy Pass.  Make your way down the pass into an alpine valley and make your way up Missouri Pass to explore more lakes and panoramic views.  Dogs are welcome, but must be on leash.',
-        image: 'https://i.imgur.com/JQQThWF.jpg
+        image: 'https://i.imgur.com/JQQThWF.jpg'
     },
     {
         id: '19',
