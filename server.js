@@ -332,7 +332,6 @@ app.get('/api/v1/hikes/:id', (req, resp) => {
 
 app.post('api/v1/hikes', (req, res) => {
     const id = "" + app.locals.hikes.length
-    const favorite = false;
     const { name, location, difficulty, distance, elevation, description, image} = req.body
 
     app.locals.hikes.push({id, name, location, difficulty, distance, elevation, description, image})
@@ -346,7 +345,6 @@ app.delete('api/v1/hikes', (req, res) => {
     res.status(201).json(app.locals.hikes)
 })
 
-//server is listening on port 3000
 app.listen(app.get('port'), () => {
     console.log(`${app.locals.title} is running on http://localhost:${app.get('port')}.`)
 })
