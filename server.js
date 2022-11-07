@@ -305,7 +305,7 @@ app.locals.hikes = [
         distance: '4',
         elevation:'1,141',
         description: 'A meandering trail through pines and forest.  You will pass old mining structures with beautiful views of the valley. Dogs are welcome, but must be on leash.',
-        image: 'https://i.imgur.com/Clz8MY3.jpg
+        image: 'https://i.imgur.com/Clz8MY3.jpg'
     }
 ]
 
