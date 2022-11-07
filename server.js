@@ -316,17 +316,17 @@ app.get('/', (req, res) => {
 app.get('/api/v1/hikes/', (req, res) => {
     const hikes = app.locals.hikes
 
-    response.json({hikes})
+    res.json({hikes})
 })
 
-app.get('/api/v1/hikes/:id', (req, resp) => {
+app.get('/api/v1/hikes/:id', (req, res) => {
     const { id } = req.params
     const hike = app.locals.hikes.find(hike => hike.id === id)
 
     if (!hike) {
-        resp.sendStatus(400).send('not found')
+        res.sendStatus(400).send('not found')
     } else {
-        resp.status(200).json(hike)
+        res.status(200).json(hike)
     }
 })
 
