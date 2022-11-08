@@ -156,7 +156,8 @@ app.locals.hikes = [
         distance: '7',
         elevation: '2,043',
         description: 'This short trail climbs steeply through aspen groves, forests and meadows to a high mountain lake just below timberline.  Dogs are welcome, but must be on leash.',
-        image: 'https://i.imgur.com/oEvQhiU.jpg'},
+        image: 'https://i.imgur.com/oEvQhiU.jpg'
+    },
     {
         id: '16',
         name:'Silver Dollar & Murray Lake',
