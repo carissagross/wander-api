@@ -2,7 +2,6 @@ const express = require('express')
 const app = express() // setting up the server
 const cors = require('cors')
 
-app.use(express.json())
 app.use(cors())
 
 // routes
@@ -329,21 +328,6 @@ app.get('/api/v1/hikes/:id', (req, res) => {
     } else {
         res.status(200).json(hike)
     }
-})
-
-app.post('api/v1/hikes', (req, res) => {
-    const id = "" + app.locals.hikes.length
-    const { name, location, difficulty, distance, elevation, description, image} = req.body
-
-    app.locals.hikes.push({id, name, location, difficulty, distance, elevation, description, image})
-    res.status(201).json(app.locals.hikes)
-})
-
-app.delete('api/v1/hikes', (req, res) => {
-    const { id } = req.body
-    app.locals.hikes.splice(Number(id), 1)
-
-    res.status(201).json(app.locals.hikes)
 })
 
 app.listen(app.get('port'), () => {
