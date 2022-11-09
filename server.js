@@ -15,7 +15,7 @@ app.locals.hikes = [
         difficulty: 'Hard',
         distance:'8.4',
         elevation: '2,877',
-        description: 'Generally considered a challenging route, this is a very popular area for backpacking, camping, and hiking. Dogs are welcome and may be off-leash in some areas.The lake is a great place to witness Colorado\'s biodiversity.', image: 'https://i.imgur.com/1V2t2nF.jpeg'
+        description: 'Generally considered a challenging route, this is a very popular area for backpacking, camping, and hiking. Dogs are welcome and may be off-leash in some areas.The lake is a great place to witness Colorado\'s biodiversity.', image: 'https://github.com/carissagross/wander-api/blob/main/assets/images/Ice_Lake.jpg'
     },
     {
         id:'2',
@@ -25,7 +25,7 @@ app.locals.hikes = [
         distance:'16',
         elevation: '2,322',
         description: 'Generally considered a challenging route, it takes an average of 7 h 0 min to complete. This is a very popular area for backpacking, camping, and fishing. Dogs are welcome, but must be on a leash.',
-        image: 'https://i.imgur.com/fWzbvyC.jpg'
+        image: 'https://github.com/carissagross/wander-api/blob/main/assets/images/Lone_Eagle.jpg'
     },
     {
         id: '3',
