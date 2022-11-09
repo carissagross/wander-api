@@ -15,7 +15,7 @@ app.locals.hikes = [
         difficulty: 'Hard',
         distance:'8.4',
         elevation: '2,877',
-        description: 'Generally considered a challenging route, this is a very popular area for backpacking, camping, and hiking. Dogs are welcome and may be off-leash in some areas.The lake is a great place to witness Colorado\'s biodiversity.', image: 'https://i.imgur.com/1V2t2nF.jpg'
+        description: 'Generally considered a challenging route, this is a very popular area for backpacking, camping, and hiking. Dogs are welcome and may be off-leash in some areas.The lake is a great place to witness Colorado\'s biodiversity.', image: 'https://i.imgur.com/1V2t2nF.jpeg'
     },
     {
         id:'2',
@@ -85,7 +85,7 @@ app.locals.hikes = [
         distance: '8',
         elevation: '2,837',
         description: 'Starting right in on the switchbacks, the trail gains its first 1,000 feet of elevation in no time.  As you exit the trees, you start the climb into the first basin.  With a few more easy ups and downs, the trail reaches Columbine Lake. Dogs are welcome and may be off-leash in some areas.',
-        image: 'https://i.imgur.com/rcYBCLR.jpg'
+        image: 'https://i.imgur.com/rcYBCLR.jpeg'
     },
     {
         id: '9',
